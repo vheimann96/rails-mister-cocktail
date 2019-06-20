@@ -20,3 +20,13 @@ user['drinks'].each do |drink|
 end
 
 puts 'Finished!'
+
+# API aufrufen
+  # @cocktail
+  # search = JSON.parse(open("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita").read)
+  # url = search['drinks'][0]['strDrinkThumb']
+  # return url.class
+
+# neue migration machen (für cocktail als field image url)
+# müsste den link runterladen
+# da wo die kate
