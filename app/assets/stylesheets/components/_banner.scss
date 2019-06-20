@@ -8,5 +8,15 @@
   h1 {
     color: white;
     font-size: 48px;
+    position: absolute;
   }
+}
+
+.mixbutton {
+  position: relative;
+  bottom: 180px;
+}
+
+.height {
+  height: 100vh;
 }

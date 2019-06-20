@@ -1,41 +1,46 @@
-.card-cocktail {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  height: 236px;
-  border-radius: 3px;
-}
 
-.card-cocktail > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-cocktail h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-cocktail p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-cocktail .card-cocktail-infos {
-  padding: 16px;
+.img-cocktail {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   position: relative;
 }
 
-.card-cocktail-infos .card-cocktail-user {
+.delete {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgba(189, 195, 199, 1);
+  border: 1px solid rgba(189, 195, 199, 1);
+  border-radius: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  padding-top: 4px;
   position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
+  left: 230px;
+  bottom: 275px;
 }
+
+.delete a:hover {
+  text-decoration: none;
+  color: white;
+  }
+
+.name {
+  position: absolute;
+  left: 30px;
+  bottom: 275px;
+  color: white;
+  font-weight: bold;
+  }
+

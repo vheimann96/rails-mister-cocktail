@@ -1,0 +1,34 @@
+.cocktail h1 {
+  font-family: 'Petit Formal Script', cursive;
+  color:  #8B4513;
+}
+
+.ingredient {
+  margin: 15px;
+}
+
+.cocktail h2 {
+  font-family: 'Petit Formal Script', cursive;
+  color:  #8B4513;
+  padding-bottom: 10px;
+}
+
+.cocktail a {
+}
+
+.cocktail a:hover {
+  text-decoration: none;
+}
+
+
+.show_background {
+  background-image:  asset-url("show_background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bottom {
+  background-color: #8B4513;
+  color: white;
+}

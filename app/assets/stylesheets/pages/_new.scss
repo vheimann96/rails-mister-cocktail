@@ -1,0 +1,39 @@
+
+.new_background {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://media.giphy.com/media/JoV7yzkQVBaBQMjfCG/giphy.gif") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.new_background label {
+  color:  #8B4513;
+  font-weight: bold;
+}
+
+.new_background input {
+  color:  #8B4513;
+  font-weight: bold;
+}
+
+.new_background h1 {
+  color:  #8B4513;
+  font-weight: bold;
+}
+
+.addbutton {
+  border-color: #8B4513;
+  color: white;
+}
+
+.addbutton:hover {
+  background: #8B4513;
+  color: white;
+}
+
+.container_bg {
+  background-color: white;
+  opacity: 0.7;
+  padding: 100px;
+  border-radius: 10px;
+}

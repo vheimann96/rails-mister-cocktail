@@ -17,3 +17,12 @@
 
 console.log('Hello World from Webpacker')
 import 'bootstrap';
+
+$('.resizableImage').hover(makeBigger, returnToOriginalSize);
+
+const makeBigger() {
+    $(this).css({height: '+=10%', width: '+=10%'});
+}
+const returnToOriginalSize() {
+    $(this).css({height: "", width: ""});
+}
